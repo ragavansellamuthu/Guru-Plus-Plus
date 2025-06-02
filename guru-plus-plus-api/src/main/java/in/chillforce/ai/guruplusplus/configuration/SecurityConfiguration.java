@@ -20,7 +20,7 @@ public class SecurityConfiguration {
 	private final ServerSecurityContextRepository serverSecurityContextRepository;
 	
 	private final ReactiveAuthenticationManager reactiveAuthenticationManager;
-	
+// hello 	
 	@Bean
 	SecurityWebFilterChain securityWebFilterChain(ServerHttpSecurity http) throws Exception {
 		 return http
